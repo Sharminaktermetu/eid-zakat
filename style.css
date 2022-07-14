@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px
+}
+.top-header{
+    background-image: linear-gradient(45deg, #664646, #3c0c0c73),url(images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+
+}
+.text{
+    position: relative;
+    transform: translateY(50px);
+    top: 30%;
+    width: 650px;
+    padding: 0 90px;
+    color: aliceblue;
+}    
+.text p{
+    margin-bottom: 40px;
+}
+.link-btn a{
+    text-decoration: none;
+    background-color: rgb(252, 38, 0);
+    padding:10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1px;
+
+}   
