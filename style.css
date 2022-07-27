@@ -91,3 +91,30 @@ section{
 .cart-text{
     padding: 15px;
 }
+/* pray part */
+.pray{
+    display: flex;
+}
+.pray img{
+    width: 97%;
+}
+/* give love part */
+.give-love{
+    display: flex;
+}
+.give-love img{
+    height: 30vh;
+    width: 100%;
+}
+.love-cart{
+    box-shadow: -1px 1px 8px 0px #d5caca;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.love-text{
+    padding: 15px;
+}
+.love-text p{
+    margin: 10px 0px 40px 0px;
+}
