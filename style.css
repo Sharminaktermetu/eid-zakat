@@ -56,7 +56,9 @@ section{
     height: 400px;
     width: 100%;
 }
-
+.info-text{
+    text-align: center;
+}
 .info-text h1{
     font-size: 40px;
 }
@@ -67,3 +69,25 @@ section{
     width: 90%;
 
 } 
+/* cart section */
+.cart-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.cart{
+    display: flex;
+    height: 30vh;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 5px;
+}
+.cart img{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+}
+.cart-text{
+    padding: 15px;
+}
