@@ -19,9 +19,8 @@ section{
 .text{
     position: relative;
     transform: translateY(50px);
-    top: 25%;
+    top: 150px;
     width: 650px;
-    padding: 0 90px;
     color: aliceblue;
 }    
 .text p{
@@ -56,19 +55,21 @@ section{
     height: 400px;
     width: 100%;
 }
-.info-text{
-    text-align: center;
-}
+
+.title-text h1,
 .info-text h1{
     font-size: 40px;
 }
-.info-text p{
+.title-text p,.info-text p{
     color: #888;
     padding: 20 0px;
     margin-bottom: 40px;
     width: 90%;
 
 } 
+.title-text{
+    text-align: center;
+}
 /* cart section */
 .cart-grid{
     display: grid;
@@ -117,4 +118,17 @@ section{
 }
 .love-text p{
     margin: 10px 0px 40px 0px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.footer-text{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-text h2{
+    color: red;
 }
